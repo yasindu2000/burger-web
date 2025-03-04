@@ -3,7 +3,7 @@ import img from "../assets/images/hero (1).png"
 
 function Hero() {
   return (
-    <div className="dark:bg-gray-900 dark:text-white">
+    <div className="dark:bg-gray-900 dark:text-white" id="/">
         <div className=" min-h-screen container flex flex-col justify-center md:flex-row md:justify-center items-center">
             {/* content section */}
             <div className="w-full md:w-2/4 space-y-8 text-center md:text-start mt-24 md:mt-10">

@@ -14,38 +14,40 @@ function Menu() {
       price: "$25",
     },
     {
-      id:3,
+      id: 3,
       title: "Crunch Burger",
-      price: "$20"
+      price: "$20",
     },
     {
-      id:4,
+      id: 4,
       title: "Tango Burger",
-      price: "$40"
+      price: "$40",
     },
     {
-        id:5,
+      id: 5,
       title: "Twist Burger",
-      price: "$50"
+      price: "$50",
     },
     {
-        id:6,
-        title: "Burst Burger",
-        price: "$30"  
-    }
+      id: 6,
+      title: "Burst Burger",
+      price: "$30",
+    },
   ];
 
   return (
-    <div>
-      <div>
+    <div className="bg-tertiary">
+      <div className="min-h-screen container flex flex-col justify-center py-4">
         {/* heding */}
-        <h1>Explore Menu</h1>
+        <h1 className="font-semibold text-4xl text-center text-secondary ">Explore Menu</h1>
 
         {/* card section */}
-        <div>
-            {menuData.map((item)=>{
-                return <MenuCard key={item.id} title={item.id} price={item.price}/>
-            })}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-14 md:gap-5 pt-8">
+          {menuData.map((item) => {
+            return (
+              <MenuCard key={item.id} title={item.title} price={item.price} />
+            );
+          })}
         </div>
       </div>
     </div>

@@ -23,7 +23,7 @@ function Navbar() {
             <div>
                 <DarkMode/>
             </div>
-            <button className='bg-secondary py-2 px-4 text-white font-semibold rounded-full hover:scale-105 transition duration-300 ease-in'>Order Now</button>
+            <button className='bg-secondary py-2 px-4 text-white font-semibold rounded-lg hover:scale-105 transition duration-300 ease-in'>Order Now</button>
         </div>
         </div>
     </header>

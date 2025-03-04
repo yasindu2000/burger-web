@@ -33,7 +33,7 @@ const changeTheme = ()=>{
 
   return (
     <div>
-        <img src={theme === "light" ? darkPng : lightPng} alt='img' onClick={changeTheme} className='w-6 cursor-pointer'></img>
+        <img src={theme === "light" ? darkPng : lightPng } alt='img' onClick={changeTheme} className='w-6 cursor-pointer'></img>
     </div>
   )
 }

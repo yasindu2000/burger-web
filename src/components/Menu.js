@@ -1,11 +1,11 @@
 import React from "react";
 import MenuCard from "../layouts/MenuCard";
 
-function Menu() {
+const Menu = () => {
   const menuData = [
     {
       id: 1,
-      title: "Tongo Burger",
+      title: "Tango Burger",
       price: "$29",
     },
     {
@@ -20,29 +20,31 @@ function Menu() {
     },
     {
       id: 4,
-      title: "Tango Burger",
-      price: "$40",
+      title: "Carnival Burger",
+      price: "$42",
     },
     {
       id: 5,
       title: "Twist Burger",
-      price: "$50",
+      price: "$40",
     },
     {
       id: 6,
       title: "Burst Burger",
-      price: "$30",
+      price: "$45",
     },
   ];
 
   return (
     <div className="bg-tertiary">
-      <div className="min-h-screen container flex flex-col justify-center py-4">
-        {/* heding */}
-        <h1 className="font-semibold text-4xl text-center text-secondary ">Explore Menu</h1>
+      <div className="container flex flex-col justify-center min-h-screen py-4">
+        {/* heading  */}
+        <h1 className="mt-5 text-4xl font-semibold text-center  text-secondary">
+          Explore Menu
+        </h1>
 
-        {/* card section */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-14 md:gap-5 pt-8">
+        {/* cards section */}
+        <div className="grid grid-cols-1 pt-8 sm:grid-cols-2 md:grid-cols-3 gap-14 md:gap-5">
           {menuData.map((item) => {
             return (
               <MenuCard key={item.id} title={item.title} price={item.price} />
@@ -52,6 +54,6 @@ function Menu() {
       </div>
     </div>
   );
-}
+};
 
 export default Menu;

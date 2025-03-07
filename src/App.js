@@ -5,6 +5,7 @@ import Menu from "./components/Menu";
 import Deals from "./components/Deals";
 import SpecialMenu from "./components/SpecialMenu";
 import Review from "./components/Review";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -27,6 +28,8 @@ function App() {
       <div id="review">
        <Review/>
       </div>
+
+      <Footer/>
     </>
   );
 }

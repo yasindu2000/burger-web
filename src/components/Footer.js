@@ -57,7 +57,7 @@ const Footer = () => {
           <h1 className="pt-5 pb-4 text-xl font-semibold md:pt-0">
             Contact Us
           </h1>
-          <nav className="flex flex-col gap-2 font-medium ">
+          <nav className="flex flex-col gap-2 font-medium cursor-pointer ">
             <Link to="/" spy={true} smooth={true} duration={500}>
               BurgerBurst@gmail.com
             </Link>

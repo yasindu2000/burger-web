@@ -14,7 +14,7 @@ function App() {
         <Menu />
       </div>
 
-      <div>
+      <div id="deals">
         <Deals/>
       </div>
     </>

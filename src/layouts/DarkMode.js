@@ -4,6 +4,8 @@ import lightPng from "../assets/images/sun.png"
 
 // yasindu dahanayake
 
+// yasindu dahanayake
+
 function DarkMode() {
 
 const [theme, setTheme] = useState(

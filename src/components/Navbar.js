@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-scroll'
 import DarkMode from '../layouts/DarkMode'
+  // yasindu dahanayake
 
 function Navbar() {
   return (
@@ -11,7 +12,7 @@ function Navbar() {
             <div>
                 <Link to='/' spy={true} smooth={true} duration={500}><h1 className='text-2xl font-semibold cursor-pointer text-secondary'>BurgerBurst</h1></Link>
             </div>
-       
+     
         <nav className='hidden gap-10 text-lg font-semibold lg:flex text-secondary '>
             <Link to='menu' spy={true} smooth={true} duration={500} className='transition duration-300 ease-in-out cursor-pointer hover:text-primary'>Menu</Link>
             <Link to='deals' spy={true} smooth={true} duration={500} className='transition duration-300 ease-in-out cursor-pointer hover:text-primary'>Hot Deals</Link>

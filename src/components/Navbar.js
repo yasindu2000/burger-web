@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { Link } from 'react-scroll'
 import DarkMode from '../layouts/DarkMode'
   // yasindu dahanayake
